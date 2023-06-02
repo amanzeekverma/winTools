@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <TlHelp32.h>
 #include <iostream>
-
+//This will launch a "notepad" process as child of a given process id (pid).
 int main(int argc, char* argv[])
 {
 	if (argc < 1) {
