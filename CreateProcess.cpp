@@ -1,7 +1,7 @@
 
 #include<Windows.h>
 #include<stdio.h>
-
+//USING CreateProcessW TO CREATE NOTEPAD.EXE
 int main() 
 {
     WCHAR name[] = L"notepad";
